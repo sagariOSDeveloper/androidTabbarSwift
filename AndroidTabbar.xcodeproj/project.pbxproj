@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		13ACFD5A287A103500B1E203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ACFD59287A103500B1E203 /* AppDelegate.swift */; };
 		13ACFD5C287A103500B1E203 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ACFD5B287A103500B1E203 /* SceneDelegate.swift */; };
-		13ACFD5E287A103500B1E203 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ACFD5D287A103500B1E203 /* ViewController.swift */; };
+		13ACFD5E287A103500B1E203 /* AndroidTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ACFD5D287A103500B1E203 /* AndroidTabbarController.swift */; };
 		13ACFD61287A103500B1E203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ACFD5F287A103500B1E203 /* Main.storyboard */; };
 		13ACFD63287A103700B1E203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13ACFD62287A103700B1E203 /* Assets.xcassets */; };
 		13ACFD66287A103700B1E203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ACFD64287A103700B1E203 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		13ACFD56287A103500B1E203 /* AndroidTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroidTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13ACFD59287A103500B1E203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13ACFD5B287A103500B1E203 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		13ACFD5D287A103500B1E203 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13ACFD5D287A103500B1E203 /* AndroidTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidTabbarController.swift; sourceTree = "<group>"; };
 		13ACFD60287A103500B1E203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13ACFD62287A103700B1E203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13ACFD65287A103700B1E203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				13ACFD59287A103500B1E203 /* AppDelegate.swift */,
 				13ACFD5B287A103500B1E203 /* SceneDelegate.swift */,
-				13ACFD5D287A103500B1E203 /* ViewController.swift */,
+				13ACFD5D287A103500B1E203 /* AndroidTabbarController.swift */,
 				13ACFD5F287A103500B1E203 /* Main.storyboard */,
 				13ACFD62287A103700B1E203 /* Assets.xcassets */,
 				13ACFD64287A103700B1E203 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13ACFD5E287A103500B1E203 /* ViewController.swift in Sources */,
+				13ACFD5E287A103500B1E203 /* AndroidTabbarController.swift in Sources */,
 				13ACFD5A287A103500B1E203 /* AppDelegate.swift in Sources */,
 				13ACFD5C287A103500B1E203 /* SceneDelegate.swift in Sources */,
 			);
