@@ -13,6 +13,7 @@
 		13ACFD61287A103500B1E203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ACFD5F287A103500B1E203 /* Main.storyboard */; };
 		13ACFD63287A103700B1E203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13ACFD62287A103700B1E203 /* Assets.xcassets */; };
 		13ACFD66287A103700B1E203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ACFD64287A103700B1E203 /* LaunchScreen.storyboard */; };
+		13ACFD6E287B00EB00B1E203 /* AndroidTabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ACFD6D287B00EB00B1E203 /* AndroidTabCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		13ACFD62287A103700B1E203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13ACFD65287A103700B1E203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13ACFD67287A103700B1E203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13ACFD6D287B00EB00B1E203 /* AndroidTabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidTabCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				13ACFD59287A103500B1E203 /* AppDelegate.swift */,
 				13ACFD5B287A103500B1E203 /* SceneDelegate.swift */,
 				13ACFD5D287A103500B1E203 /* AndroidTabbarController.swift */,
+				13ACFD6D287B00EB00B1E203 /* AndroidTabCollectionViewCell.swift */,
 				13ACFD5F287A103500B1E203 /* Main.storyboard */,
 				13ACFD62287A103700B1E203 /* Assets.xcassets */,
 				13ACFD64287A103700B1E203 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13ACFD6E287B00EB00B1E203 /* AndroidTabCollectionViewCell.swift in Sources */,
 				13ACFD5E287A103500B1E203 /* AndroidTabbarController.swift in Sources */,
 				13ACFD5A287A103500B1E203 /* AppDelegate.swift in Sources */,
 				13ACFD5C287A103500B1E203 /* SceneDelegate.swift in Sources */,
