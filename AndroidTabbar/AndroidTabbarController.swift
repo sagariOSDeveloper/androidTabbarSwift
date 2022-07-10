@@ -31,7 +31,15 @@ class AndroidTabbarController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .yellow
+        setupViews()
+    }
+    
+    fileprivate func setupViews() {
+        view.backgroundColor = .white
+        view.addSubview(tabBarCollectionView)
+        tabBarCollectionView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        tabBarCollectionView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10).isActive = true
+        tabBarCollectionView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.95).isActive = true
     }
     
 }
